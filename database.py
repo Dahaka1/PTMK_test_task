@@ -13,6 +13,7 @@ try:
 			host=db_params.HOST,
 			port=db_params.PORT
 		)
+	conn.autocommit = True
 except:
 	conn = None
 	logger.error(
