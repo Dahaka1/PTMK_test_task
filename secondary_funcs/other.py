@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import NamedTuple, Callable
+from typing import NamedTuple, Callable, Optional
 from datetime import date
 from tests.test_post import test_format_args
 from loguru import logger
@@ -32,14 +32,14 @@ def format_args(args: list, foo: Callable | str) -> FormattedArgsPost:
 		return FormattedArgsPost(*args)
 
 	else:
-		raise AttributeError(f"Function named '{foo.__name__}' wasn't found")
+		raise AttributeError(f"Function named '{current_function}' wasn't found")
 
 
 def formatted_date(birthdate: date):
 	return birthdate.strftime('%d.%m.%Y')
 
 
-def generate_person_params(firstname: str = None) -> tuple[str, date, str]:
+def generate_person_params(firstname: Optional[str] = None) -> Optional[tuple[str, date, str]]:
 	if language_code == 'en':
 		sex = random.choice(sex_choices)
 		if firstname is None:

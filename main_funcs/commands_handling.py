@@ -3,11 +3,13 @@ from secondary_funcs import sql
 from secondary_funcs.decorators import handle_func
 from secondary_funcs.other import format_args
 from secondary_funcs.mapping import persons_params_list
-from secondary_funcs.represent import write_to_console_unique_persons, get_args, get_results
+from secondary_funcs.represent import write_to_console_unique_persons, get_args
 from secondary_funcs.queries import execute_all
 from secondary_funcs.mapping import random_persons_list, random_persons_startswith_f
 from loguru_logging import closing_info
-
+from loguru import logger
+from psycopg2.errors import DuplicateTable, UndefinedObject
+from .strings import delete_indexes
 
 @handle_func
 def start() -> None:
@@ -45,7 +47,8 @@ def get():
 	"""
 	closing_info()
 	with conn.cursor() as cursor:
-		cursor.execute(sql(get))
+		cursor.execute(sql(get))  # не смог до конца разобраться, как сделать оптимальный запрос SQL,
+		# поэтому долго и медленно работает посредством использования ORM Person
 		args = cursor.fetchall()
 		persons = persons_params_list(args)
 		write_to_console_unique_persons(persons)
@@ -77,14 +80,23 @@ def get_advanced():
 		)
 
 
-@handle_func
 def update_db():
 	"""
 	func number 6
 	"""
-	with conn.cursor() as cursor:
-		cursor.execute(
-			sql(update_db)
-		)
 	get_advanced()
-	get_results()
+	with conn.cursor() as cursor:
+		try:
+			cursor.execute(delete_indexes)
+		except UndefinedObject:
+			pass
+		try:
+			cursor.execute(
+				sql(update_db)
+			)
+		except DuplicateTable:
+			raise Exception(
+				"Tried to create DB indexes, but they're already exists"
+			)
+	get_advanced(current_func=update_db)
+

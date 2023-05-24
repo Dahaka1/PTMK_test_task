@@ -26,7 +26,9 @@ sql = {
 	"get_advanced": "SELECT p.fullname, p.birthdate, p.sex FROM "
 					f"persons AS p WHERE p.sex = '{sex_choices[0]}' AND "
 					f"p.fullname LIKE 'F%'",
-	"update_db": "SOME COMMAND"  ###
+	"update_db":  """				  
+				  CREATE INDEX person_fullname_person_sex_index ON persons (sex, fullname);
+				  """  ###
 }
 
 get_all_persons = """
@@ -35,4 +37,12 @@ get_all_persons = """
 
 get_db_table_length = """
 	SELECT COUNT(*) FROM persons;
+"""
+
+get_person = """
+	SELECT person_id, sex FROM persons WHERE fullname = %s AND birthdate = %s
+"""
+
+delete_indexes = """
+	DROP INDEX person_fullname_person_sex_index;
 """

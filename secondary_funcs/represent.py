@@ -1,5 +1,7 @@
-from typing import Iterable
+from typing import Iterable, Sized, Union
 import json
+from secondary_funcs.queries import get_table_count
+from loguru import logger
 
 
 def write_to_console_unique_persons(persons_list: map, pk=False) -> None:
@@ -9,8 +11,11 @@ def write_to_console_unique_persons(persons_list: map, pk=False) -> None:
 		print(*[f'{person.pk} + {person}' for person in persons_list], sep='\n')
 
 
-def get_args(args: Iterable[Iterable]) -> None:
+def get_args(args: Union[Sized, Iterable]) -> None:
 	print(*args, sep='\n')
+	logger.info(
+		f"FUNCTION #5: {len(args)} rows was turned out from {get_table_count()} line."
+	)
 
 
 def get_logs() -> None:
@@ -26,6 +31,6 @@ def get_results() -> None:
 	file_path = 'tests/timing_results.json'
 	try:
 		results = json.load(open(file_path))
+		print(f"RESULTS:\n{results}")
 	except FileNotFoundError:
 		raise FileNotFoundError("There is no fixed by func number 5 results in timing_results.json")
-	print(results)

@@ -2,6 +2,7 @@ from datetime import date
 from secondary_funcs.other import formatted_date
 from typing import Optional
 from main_funcs.strings import get_all_persons
+from secondary_funcs.queries import get_person_id_and_sex
 
 
 class Person:
@@ -12,9 +13,9 @@ class Person:
 		self,
 		fullname: str,
 		birthdate: date,
-		sex: str = None
+		sex: Optional[str] = None
 	):
-		self.pk = None
+		self.pk: Optional[int] = None
 		self.fullname = fullname
 		self.birthdate = birthdate
 		self.sex: Optional[str] = sex
@@ -33,13 +34,9 @@ class Person:
 		self.age = age
 
 	def get_pk_and_sex(self) -> None:
-		for person in self.get_all_persons():
-			# person looks like (1, 'Тестовый Андрей Иваныч', datetime.date(1995, 6, 25), 'male')
-			if person[1] == self.fullname and person[2] == self.birthdate:
-				if self.sex is None:
-					self.sex = person[3]
-				self.pk = person[0]
-				break
+		pk, sex = get_person_id_and_sex(self)
+		self.pk = pk
+		self.sex = sex
 
 	def get_params(self) -> None:
 		self.get_pk_and_sex()

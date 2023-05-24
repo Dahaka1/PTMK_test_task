@@ -15,9 +15,9 @@ def logger_init() -> None:
 		)
 
 
-def log_func_error(func, exception: Optional[Exception] = None) -> None:
+def log_func_error(exception: Optional[Exception] = None) -> None:
 	logger.error(
-		f'{func.__doc__.strip()} working error. {"Exception content: " + str(exception) if not exception is None else ""}'
+		f'Function working error. {"Exception content: " + str(exception) if not exception is None else ""}'
 	)
 
 

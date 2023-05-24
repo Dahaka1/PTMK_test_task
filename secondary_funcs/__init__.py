@@ -3,7 +3,6 @@ from __future__ import annotations
 from typing import Callable
 import main_funcs.strings
 import sys
-from loguru import logger
 
 
 def sql(arg: Callable | str) -> str:
