@@ -10,14 +10,13 @@ def format_args(args: list, foo: Callable) -> NamedTuple:
 
 	test_args_list(foo, [fullname, birthdate, sex])
 
-	class FormattedArgs(NamedTuple):
-		if foo.__name__ == "post":
+	if foo.__name__ == "post":
+		class FormattedArgs(NamedTuple):
 			fullname: str
 			birthdate: date
 			sex: str
-
-		else:
-			raise AttributeError(f"Function named '{foo.__name__}' wasn't found")
+	else:
+		raise AttributeError(f"Function named '{foo.__name__}' wasn't found")
 
 	birthdate = datetime.strptime(birthdate, "%d.%m.%Y").date()
 

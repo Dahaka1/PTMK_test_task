@@ -1,8 +1,8 @@
 from psycopg2 import connect
-import business_logics
+import non_public
 from loguru import logger
 
-db_params = business_logics.database_params()
+db_params = non_public.database_params()
 
 
 try:
@@ -15,7 +15,7 @@ try:
 		)
 	conn.autocommit = True
 except:
-	conn = None
+	conn = connect()
 	logger.error(
 		"Can't establish a connection to DB."
 	)
