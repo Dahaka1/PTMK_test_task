@@ -1,10 +1,12 @@
 # PTMK_test_task
 
 # BUILTIN
-Logging: Loguru
-VCS: Git
-Virtual Environment: Virtualenv (Python)
-PostgreSQL connection module: psycopg2
+Logging: Loguru.
+VCS: Git.
+Virtual Environment: Virtualenv (Python).
+DB: PostgreSQL.
+DB-connecting module: psycopg2.
+Testing: simple built-in Python asserts.
 
 REFLECTED IN requirements.txt
 

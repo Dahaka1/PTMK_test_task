@@ -1,0 +1,279 @@
+2023-05-24T11:20:19.531036+0300 INFO func number 1 ('start') starting...
+2023-05-24T11:20:19.534548+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T11:20:19.534548+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T11:40:25.551930+0300 INFO func number 1 ('start') starting...
+2023-05-24T11:40:25.553931+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T11:40:25.553931+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T11:40:40.533939+0300 ERROR Getting command line arg error: ValueError
+2023-05-24T11:40:40.533939+0300 ERROR Getting command line arg error: ValueError
+2023-05-24T11:41:06.403855+0300 ERROR Getting command line arg error: ValueError
+2023-05-24T11:41:06.403855+0300 ERROR Getting command line arg error: ValueError
+2023-05-24T11:41:37.120780+0300 ERROR Getting command line arg error: ValueError - invalid literal for int() with base 10: 'qwe'
+2023-05-24T11:41:37.120780+0300 ERROR Getting command line arg error: ValueError - invalid literal for int() with base 10: 'qwe'
+2023-05-24T11:41:50.273921+0300 INFO func number 2 ('post') starting...
+2023-05-24T11:41:50.277055+0300 ERROR func number 2 working error. Exception content: time data 'awdaw' does not match format '%d.%m.%Y'
+2023-05-24T11:41:50.277055+0300 ERROR func number 2 working error. Exception content: time data 'awdaw' does not match format '%d.%m.%Y'
+2023-05-24T12:06:28.905169+0300 INFO func number 2 ('post') starting...
+2023-05-24T12:06:28.907035+0300 ERROR func number 2 working error. Exception content: Format of birthdate-string isn't valid. It must be like 'dd.mm.yyyy'
+2023-05-24T12:06:28.907035+0300 ERROR func number 2 working error. Exception content: Format of birthdate-string isn't valid. It must be like 'dd.mm.yyyy'
+2023-05-24T12:17:44.748664+0300 INFO func number 2 ('post') starting...
+2023-05-24T12:17:44.749882+0300 ERROR func number 2 working error. Exception content: Format of birthdate-string isn't valid. It must be like 'dd.mm.yyyy'
+2023-05-24T12:17:44.749882+0300 ERROR func number 2 working error. Exception content: Format of birthdate-string isn't valid. It must be like 'dd.mm.yyyy'
+2023-05-24T12:17:50.698952+0300 INFO func number 1 ('start') starting...
+2023-05-24T12:17:50.714982+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T12:17:50.714982+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T12:19:05.977223+0300 INFO func number 1 ('start') starting...
+2023-05-24T12:19:05.978439+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T12:19:05.978439+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T12:19:10.073054+0300 INFO func number 2 ('post') starting...
+2023-05-24T12:19:10.075014+0300 ERROR func number 2 working error. Exception content: Format of birthdate-string isn't valid. It must be like 'dd.mm.yyyy'
+2023-05-24T12:19:10.075014+0300 ERROR func number 2 working error. Exception content: Format of birthdate-string isn't valid. It must be like 'dd.mm.yyyy'
+2023-05-24T12:55:13.280727+0300 INFO func number 2 ('post') starting...
+2023-05-24T12:55:13.282725+0300 ERROR func number 2 working error. Exception content: Got an invalid fullname. It must be like 'Иванов Иван Иванович' or 'Ivanov Ivan Ivanovich'
+2023-05-24T12:55:13.282725+0300 ERROR func number 2 working error. Exception content: Got an invalid fullname. It must be like 'Иванов Иван Иванович' or 'Ivanov Ivan Ivanovich'
+2023-05-24T12:55:30.128094+0300 INFO func number 2 ('post') starting...
+2023-05-24T12:55:30.131057+0300 ERROR func number 2 working error. Exception content: 'str' object has no attribute 'year'
+2023-05-24T12:55:30.131057+0300 ERROR func number 2 working error. Exception content: 'str' object has no attribute 'year'
+2023-05-24T12:56:02.089095+0300 INFO func number 2 ('post') starting...
+2023-05-24T12:56:02.108060+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T12:56:02.110058+0300 INFO func number 2 ('post') working took 0.015000000013969839 sec.
+2023-05-24T12:56:03.928013+0300 INFO func number 2 ('post') starting...
+2023-05-24T12:56:03.936037+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T12:56:03.937013+0300 INFO func number 2 ('post') working took 0.0 sec.
+2023-05-24T12:56:05.142211+0300 INFO func number 2 ('post') starting...
+2023-05-24T12:56:05.147266+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T12:56:05.148309+0300 INFO func number 2 ('post') working took 0.01600000000325963 sec.
+2023-05-24T12:58:54.581231+0300 INFO func number 1 ('start') starting...
+2023-05-24T12:58:54.583816+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T12:58:54.583816+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T13:07:19.070929+0300 ERROR Getting command line arg error: AssertionError - Invalid func-number arg
+2023-05-24T13:07:19.070929+0300 ERROR Getting command line arg error: AssertionError - Invalid func-number arg
+2023-05-24T13:08:12.930271+0300 INFO func number 1 ('start') starting...
+2023-05-24T13:08:12.932236+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T13:08:12.932236+0300 ERROR func number 2 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T13:08:17.854790+0300 INFO func number 2 ('post') starting...
+2023-05-24T13:08:17.857794+0300 ERROR func number 2 working error. Exception content: Got an invalid fullname. It must be like 'Иванов Иван Иванович' or 'Ivanov Ivan Ivanovich'
+2023-05-24T13:08:17.857794+0300 ERROR func number 2 working error. Exception content: Got an invalid fullname. It must be like 'Иванов Иван Иванович' or 'Ivanov Ivan Ivanovich'
+2023-05-24T13:29:18.849060+0300 INFO func number 2 ('post') starting...
+2023-05-24T13:29:18.859063+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T13:29:18.860060+0300 INFO func number 2 ('post') working took 0.0 sec.
+2023-05-24T13:29:57.600862+0300 INFO func number 2 ('post') starting...
+2023-05-24T13:29:57.606324+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T13:29:57.607325+0300 INFO func number 2 ('post') working took 0.0 sec.
+2023-05-24T14:41:09.399961+0300 ERROR column p.id does not exist
+LINE 3:    SELECT DISTINCT p.id, p.fullname, p.birthdate FROM person...
+                           ^
+
+2023-05-24T14:41:09.399961+0300 ERROR column p.id does not exist
+LINE 3:    SELECT DISTINCT p.id, p.fullname, p.birthdate FROM person...
+                           ^
+
+2023-05-24T14:42:40.201172+0300 ERROR column "id" does not exist
+LINE 3:    SELECT DISTINCT id, fullname, birthdate FROM persons ORDE...
+                           ^
+
+2023-05-24T14:42:40.201172+0300 ERROR column "id" does not exist
+LINE 3:    SELECT DISTINCT id, fullname, birthdate FROM persons ORDE...
+                           ^
+
+2023-05-24T14:43:23.099204+0300 ERROR column f.id does not exist
+LINE 7:    SELECT f.id, f.fullname, f.birthdate, f.sex FROM filtered...
+                  ^
+
+2023-05-24T14:43:23.099204+0300 ERROR column f.id does not exist
+LINE 7:    SELECT f.id, f.fullname, f.birthdate, f.sex FROM filtered...
+                  ^
+
+2023-05-24T14:43:33.797685+0300 ERROR column f.sex does not exist
+LINE 7:    SELECT f.person_id, f.fullname, f.birthdate, f.sex FROM f...
+                                                        ^
+
+2023-05-24T14:43:33.797685+0300 ERROR column f.sex does not exist
+LINE 7:    SELECT f.person_id, f.fullname, f.birthdate, f.sex FROM f...
+                                                        ^
+
+2023-05-24T14:45:23.614521+0300 ERROR column "filtered_persons" does not exist
+LINE 7:    SELECT filtered_persons;
+                  ^
+
+2023-05-24T14:45:23.614521+0300 ERROR column "filtered_persons" does not exist
+LINE 7:    SELECT filtered_persons;
+                  ^
+
+2023-05-24T14:47:36.809346+0300 ERROR syntax error at or near "GROUP"
+LINE 3: ...ullname, birthdate FROM persons ORDER BY fullname GROUP BY p...
+                                                             ^
+
+2023-05-24T14:47:36.809346+0300 ERROR syntax error at or near "GROUP"
+LINE 3: ...ullname, birthdate FROM persons ORDER BY fullname GROUP BY p...
+                                                             ^
+
+2023-05-24T14:55:43.269155+0300 ERROR column p.birthdate does not exist
+LINE 9:    f.fullname=p.fullname WHERE f.birthdate=p.birthdate;
+                                                   ^
+HINT:  Perhaps you meant to reference the column "f.birthdate".
+
+2023-05-24T14:55:43.269155+0300 ERROR column p.birthdate does not exist
+LINE 9:    f.fullname=p.fullname WHERE f.birthdate=p.birthdate;
+                                                   ^
+HINT:  Perhaps you meant to reference the column "f.birthdate".
+
+2023-05-24T14:56:43.450573+0300 ERROR column p.birthdate does not exist
+LINE 9:    f.fullname=p.fullname WHERE f.birthdate=p.birthdate;
+                                                   ^
+HINT:  Perhaps you meant to reference the column "f.birthdate".
+
+2023-05-24T14:56:43.450573+0300 ERROR column p.birthdate does not exist
+LINE 9:    f.fullname=p.fullname WHERE f.birthdate=p.birthdate;
+                                                   ^
+HINT:  Perhaps you meant to reference the column "f.birthdate".
+
+2023-05-24T14:56:52.923620+0300 ERROR column p.birthdate does not exist
+LINE 9:    f.fullname=p.fullname WHERE f.birthdate=p.birthdate;
+                                                   ^
+HINT:  Perhaps you meant to reference the column "f.birthdate".
+
+2023-05-24T14:56:52.923620+0300 ERROR column p.birthdate does not exist
+LINE 9:    f.fullname=p.fullname WHERE f.birthdate=p.birthdate;
+                                                   ^
+HINT:  Perhaps you meant to reference the column "f.birthdate".
+
+2023-05-24T14:57:24.186825+0300 ERROR column p.birthdate does not exist
+LINE 7:    SELECT p.person_id, f.fullname, f.birthdate, p.birthdate,...
+                                                        ^
+HINT:  Perhaps you meant to reference the column "f.birthdate".
+
+2023-05-24T14:57:24.186825+0300 ERROR column p.birthdate does not exist
+LINE 7:    SELECT p.person_id, f.fullname, f.birthdate, p.birthdate,...
+                                                        ^
+HINT:  Perhaps you meant to reference the column "f.birthdate".
+
+2023-05-24T14:58:11.034725+0300 ERROR column f.person_id does not exist
+LINE 8:    general_persons ON f.person_id = general_persons.person_i...
+                              ^
+
+2023-05-24T14:58:11.034725+0300 ERROR column f.person_id does not exist
+LINE 8:    general_persons ON f.person_id = general_persons.person_i...
+                              ^
+
+2023-05-24T14:59:21.121035+0300 ERROR column f.person_id does not exist
+LINE 7:    SELECT f.person_id, f.fullname, f.birthdate, general_pers...
+                  ^
+
+2023-05-24T14:59:21.121035+0300 ERROR column f.person_id does not exist
+LINE 7:    SELECT f.person_id, f.fullname, f.birthdate, general_pers...
+                  ^
+
+2023-05-24T15:27:10.249602+0300 ERROR 'NoneType' object is not iterable
+2023-05-24T15:27:10.249602+0300 ERROR 'NoneType' object is not iterable
+2023-05-24T15:33:21.319538+0300 INFO func number 2 ('post') starting...
+2023-05-24T15:33:21.326029+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T15:33:21.328033+0300 INFO func number 2 ('post') working took 0.0 sec.
+2023-05-24T15:33:50.539170+0300 INFO func number 2 ('post') starting...
+2023-05-24T15:33:50.546774+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T15:33:50.547773+0300 INFO func number 2 ('post') working took 0.0 sec.
+2023-05-24T15:34:03.151040+0300 INFO func number 2 ('post') starting...
+2023-05-24T15:34:03.156563+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T15:34:03.157553+0300 INFO func number 2 ('post') working took 0.0 sec.
+2023-05-24T15:35:11.804727+0300 INFO func number 3 ('get') starting...
+2023-05-24T15:35:11.809690+0300 INFO func number 3 ('get') successfully completed!
+2023-05-24T15:35:11.809690+0300 INFO func number 3 ('get') working took 0.0 sec.
+2023-05-24T15:35:21.324425+0300 INFO func number 3 ('get') starting...
+2023-05-24T15:35:21.329424+0300 INFO func number 3 ('get') successfully completed!
+2023-05-24T15:35:21.330424+0300 INFO func number 3 ('get') working took 0.0 sec.
+2023-05-24T15:40:25.937514+0300 INFO func number 2 ('post') starting...
+2023-05-24T15:40:25.939168+0300 ERROR func number 3 working error. Exception content: Got an invalid fullname. It must be like 'Иванов Иван Иванович' or 'Ivanov Ivan Ivanovich'
+2023-05-24T15:40:25.939168+0300 ERROR func number 3 working error. Exception content: Got an invalid fullname. It must be like 'Иванов Иван Иванович' or 'Ivanov Ivan Ivanovich'
+2023-05-24T15:43:02.564830+0300 INFO func number 2 ('post') starting...
+2023-05-24T15:43:02.566791+0300 ERROR func number 3 working error. Exception content: Got an invalid fullname. It must be like Иванов Иван Иванович
+2023-05-24T15:43:02.566791+0300 ERROR func number 3 working error. Exception content: Got an invalid fullname. It must be like Иванов Иван Иванович
+2023-05-24T15:43:18.411756+0300 INFO func number 2 ('post') starting...
+2023-05-24T15:43:18.419004+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T15:43:18.420066+0300 INFO func number 2 ('post') working took 0.0 sec.
+2023-05-24T15:43:21.977045+0300 INFO func number 2 ('post') starting...
+2023-05-24T15:43:21.979046+0300 ERROR func number 3 working error. Exception content: Got an invalid fullname. It must be like 'Ivanov Ivan Ivanovich'
+2023-05-24T15:43:21.979046+0300 ERROR func number 3 working error. Exception content: Got an invalid fullname. It must be like 'Ivanov Ivan Ivanovich'
+2023-05-24T15:43:32.913383+0300 INFO func number 2 ('post') starting...
+2023-05-24T15:43:32.918430+0300 INFO func number 2 ('post') successfully completed!
+2023-05-24T15:43:32.918430+0300 INFO func number 2 ('post') working took 0.0 sec.
+2023-05-24T15:43:39.045599+0300 INFO func number 3 ('get') starting...
+2023-05-24T15:43:39.050555+0300 INFO func number 3 ('get') successfully completed!
+2023-05-24T15:43:39.051554+0300 INFO func number 3 ('get') working took 0.0 sec.
+2023-05-24T16:59:10.049872+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:10:50.087754+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:10:50.091447+0300 ERROR func number 4 working error. Exception content: 'Person' object has no attribute 'bitrthdate'
+2023-05-24T17:10:50.091447+0300 ERROR func number 4 working error. Exception content: 'Person' object has no attribute 'bitrthdate'
+2023-05-24T17:10:59.124116+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:11:37.085896+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:12:56.558710+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:14:15.556846+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:17:10.523799+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:31:13.407848+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:31:13.409958+0300 ERROR func number 4 working error. Exception content: execute_all() takes 1 positional argument but 2 were given
+2023-05-24T17:31:13.409958+0300 ERROR func number 4 working error. Exception content: execute_all() takes 1 positional argument but 2 were given
+2023-05-24T17:31:54.744742+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:32:18.666248+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:32:56.476127+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:33:01.254938+0300 INFO func number 4 ('post_additional') successfully completed!
+2023-05-24T17:33:01.255945+0300 INFO func number 4 ('post_additional') working took 4.780999999959022 sec.
+2023-05-24T17:41:20.244114+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:42:34.831179+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:42:50.791526+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:42:50.793488+0300 INFO Press Ctrl+C to exit process early than it's closing
+2023-05-24T17:43:52.562096+0300 INFO func number 3 ('get') starting...
+2023-05-24T17:47:14.434797+0300 INFO func number 3 ('get') starting...
+2023-05-24T17:47:14.436691+0300 INFO Press Ctrl+C to exit process early than it's closing
+2023-05-24T17:54:56.904469+0300 INFO func number 4 ('post_additional') starting...
+2023-05-24T17:54:56.906429+0300 INFO Press Ctrl+C to exit process early than it's closing
+2023-05-24T18:07:38.166373+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-24T18:07:38.168247+0300 ERROR func number 5 working error. Exception content: syntax error at or near "AS"
+LINE 1: SELECT p.fullname, p.birthdate, p.sex FROMpersons AS p WHERE...
+                                                          ^
+
+2023-05-24T18:07:38.168247+0300 ERROR func number 5 working error. Exception content: syntax error at or near "AS"
+LINE 1: SELECT p.fullname, p.birthdate, p.sex FROMpersons AS p WHERE...
+                                                          ^
+
+2023-05-24T18:07:53.787056+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-24T18:07:53.795682+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-24T18:07:53.795912+0300 INFO func number 5 ('get_advanced') working took 0.0 sec.
+2023-05-24T18:09:51.926628+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-24T18:09:51.933630+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-24T18:09:51.934627+0300 INFO func number 5 ('get_advanced') working took 0.0 sec.
+2023-05-24T18:10:19.789298+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-24T18:10:19.820383+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-24T18:10:19.821346+0300 INFO func number 5 ('get_advanced') working took 0.031000000017229468 sec.
+2023-05-24T18:21:37.236036+0300 INFO func number 4 ('post_advanced') starting...
+2023-05-24T18:21:37.236998+0300 INFO Press Ctrl+C to exit process early than it's closing
+2023-05-24T18:23:46.089025+0300 INFO func number 4 ('post_advanced') starting...
+2023-05-24T18:23:46.091025+0300 INFO Press Ctrl+C to exit process early than it's closing
+2023-05-24T18:25:22.838117+0300 ERROR Getting command line arg error: AssertionError - Invalid arg. It must be the number of function or 'log'
+2023-05-24T18:25:22.838117+0300 ERROR Getting command line arg error: AssertionError - Invalid arg. It must be the number of function or 'log'
+2023-05-24T18:31:28.870997+0300 INFO func number 1 ('start') starting...
+2023-05-24T18:31:28.877471+0300 ERROR func number 6 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T18:31:28.877471+0300 ERROR func number 6 working error. Exception content: type "sex_choices" already exists
+
+2023-05-24T18:31:32.147493+0300 INFO func number 2 ('post') starting...
+2023-05-24T18:31:32.149407+0300 ERROR func number 6 working error. Exception content: post() missing 1 required positional argument: 'args'
+2023-05-24T18:31:32.149407+0300 ERROR func number 6 working error. Exception content: post() missing 1 required positional argument: 'args'
+2023-05-24T18:33:00.479268+0300 INFO func number 2 ('post') starting...
+2023-05-24T18:33:00.480832+0300 ERROR func number 6 working error. Exception content: Arguments amount must be 5.
+2023-05-24T18:33:00.480832+0300 ERROR func number 6 working error. Exception content: Arguments amount must be 5.
+2023-05-24T18:33:36.243015+0300 INFO func number 2 ('post') starting...
+2023-05-24T18:33:36.243978+0300 ERROR func number 6 working error. Exception content: Function needs for 5 arguments.
+2023-05-24T18:33:36.243978+0300 ERROR func number 6 working error. Exception content: Function needs for 5 arguments.
+2023-05-24T18:38:14.350980+0300 INFO func number 4 ('post_advanced') starting...
+2023-05-24T18:38:14.353087+0300 INFO Press Ctrl+C to exit process early than it's closing

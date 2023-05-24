@@ -29,3 +29,9 @@ def successfully(func) -> float:
 
 def starting(func) -> None:
 	logger.info(f"{func.__doc__.strip()} ('{func.__name__}') starting...")
+
+
+def closing_info() -> None:
+	logger.info(
+		"Press Ctrl+C to exit process early than it's closing"
+	)
