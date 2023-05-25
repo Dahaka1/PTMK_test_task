@@ -27,7 +27,9 @@ sql = {
 					f"persons AS p WHERE p.sex = '{sex_choices[0]}' AND "
 					f"p.fullname LIKE 'F%'",
 	"update_db":  """				  
-				  CREATE INDEX person_fullname_person_sex_index ON persons (sex, fullname);
+				  CREATE INDEX person_sex_index ON persons (sex);
+				  CREATE INDEX person_fullname_index ON persons (fullname) 
+				  WHERE fullname LIKE 'F%';
 				  """  ###
 }
 
@@ -44,5 +46,6 @@ get_person = """
 """
 
 delete_indexes = """
-	DROP INDEX person_fullname_person_sex_index;
+	DROP INDEX person_fullname_index;
+	DROP INDEX person_sex_index;
 """

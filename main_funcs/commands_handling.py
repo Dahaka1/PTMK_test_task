@@ -7,19 +7,22 @@ from secondary_funcs.represent import write_to_console_unique_persons, get_args
 from secondary_funcs.queries import execute_all
 from secondary_funcs.mapping import random_persons_list, random_persons_startswith_f
 from loguru_logging import closing_info
-from loguru import logger
-from psycopg2.errors import DuplicateTable, UndefinedObject
+from psycopg2.errors import DuplicateTable, UndefinedObject, DuplicateObject
 from .strings import delete_indexes
+
 
 @handle_func
 def start() -> None:
 	"""
 	func number 1
 	"""
-	with conn.cursor() as cursor:
-		cursor.execute(
-			sql(start)
-		)
+	try:
+		with conn.cursor() as cursor:
+			cursor.execute(
+				sql(start)
+			)
+	except DuplicateObject:
+		raise Exception("Table or built-in type 'sex_choices' already exists. Remove them before making table")
 
 
 @handle_func

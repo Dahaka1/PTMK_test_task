@@ -751,3 +751,105 @@ LINE 4:  DROP INDEX person_fullname_person_sex_index ON persons;
 2023-05-24T23:28:56.700137+0300 INFO func number 5 ('get_advanced') successfully completed!
 2023-05-24T23:28:56.701137+0300 INFO Function #6 working results was fixed in 'tests/timing_results.json'
 2023-05-24T23:28:56.702138+0300 INFO func number 6 ('get_advanced') working took 0.39100000000325963 sec.
+2023-05-25T09:41:00.002737+0300 INFO func number 1 ('start') starting...
+2023-05-25T09:41:00.004680+0300 ERROR Function working error. Exception content: type "sex_choices" already exists
+
+2023-05-25T09:41:00.004680+0300 ERROR Function working error. Exception content: type "sex_choices" already exists
+
+2023-05-25T09:42:38.951882+0300 INFO func number 1 ('start') starting...
+2023-05-25T09:42:38.953379+0300 ERROR Function working error. ('Exception content: ', 'DuplicateObject', 'type "sex_choices" already exists\n')
+2023-05-25T09:42:38.953379+0300 ERROR Function working error. ('Exception content: ', 'DuplicateObject', 'type "sex_choices" already exists\n')
+2023-05-25T09:43:06.062103+0300 INFO func number 1 ('start') starting...
+2023-05-25T09:43:06.065065+0300 ERROR TypeError: bad operand type for unary +: 'str'
+2023-05-25T09:43:06.065065+0300 ERROR TypeError: bad operand type for unary +: 'str'
+2023-05-25T09:43:14.172472+0300 INFO func number 1 ('start') starting...
+2023-05-25T09:43:14.175470+0300 ERROR Function working error. Exception content: DuplicateObject type "sex_choices" already exists
+
+2023-05-25T09:43:14.175470+0300 ERROR Function working error. Exception content: DuplicateObject type "sex_choices" already exists
+
+2023-05-25T09:43:40.918047+0300 INFO func number 1 ('start') starting...
+2023-05-25T09:43:40.920070+0300 ERROR Function working error. Exception content: type "sex_choices" already exists
+
+2023-05-25T09:43:40.920070+0300 ERROR Function working error. Exception content: type "sex_choices" already exists
+
+2023-05-25T09:46:28.242022+0300 INFO func number 1 ('start') starting...
+2023-05-25T09:46:28.245020+0300 ERROR Function working error. Exception content: Table or built-in type 'sex_choices' already exists. Remove them before making table
+2023-05-25T09:46:28.245020+0300 ERROR Function working error. Exception content: Table or built-in type 'sex_choices' already exists. Remove them before making table
+2023-05-25T09:46:37.163550+0300 INFO func number 2 ('post') starting...
+2023-05-25T09:46:37.164513+0300 ERROR Function working error. Exception content: Function needs for 5 arguments.
+2023-05-25T09:46:37.164513+0300 ERROR Function working error. Exception content: Function needs for 5 arguments.
+2023-05-25T09:46:52.746998+0300 INFO func number 2 ('post') starting...
+2023-05-25T09:46:52.748004+0300 ERROR Function working error. Exception content: Function needs for 5 arguments.
+2023-05-25T09:46:52.748004+0300 ERROR Function working error. Exception content: Function needs for 5 arguments.
+2023-05-25T09:46:55.563870+0300 INFO func number 2 ('post') starting...
+2023-05-25T09:46:55.570402+0300 INFO func number 2 ('post') successfully completed!
+2023-05-25T09:46:55.570402+0300 INFO func number 2 ('post') working took 0.01600000000325963 sec.
+2023-05-25T09:47:12.969007+0300 INFO func number 3 ('get') starting...
+2023-05-25T09:47:12.971603+0300 INFO Press Ctrl+C to exit process early than it's closing
+2023-05-25T09:47:36.143771+0300 INFO func number 4 ('post_advanced') starting...
+2023-05-25T09:47:36.145733+0300 INFO Press Ctrl+C to exit process early than it's closing
+2023-05-25T09:47:42.421323+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:47:42.854769+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:47:42.855770+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:47:42.857768+0300 INFO Function #5 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:47:42.858770+0300 INFO func number 5 ('get_advanced') working took 0.43700000003445894 sec.
+2023-05-25T09:47:59.863861+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:00.300459+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:00.302466+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:00.303497+0300 INFO Function #5 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:00.304460+0300 INFO func number 5 ('get_advanced') working took 0.4369999999762513 sec.
+2023-05-25T09:48:00.661208+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:01.032409+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:01.034367+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:01.035367+0300 INFO Function #6 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:01.037370+0300 INFO func number 6 ('get_advanced') working took 0.35899999999674037 sec.
+2023-05-25T09:48:04.245535+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:04.648995+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:04.650994+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:04.652502+0300 INFO Function #5 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:04.653502+0300 INFO func number 5 ('get_advanced') working took 0.4059999999590218 sec.
+2023-05-25T09:48:05.085125+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:05.455429+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:05.456429+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:05.457429+0300 INFO Function #6 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:05.459468+0300 INFO func number 6 ('get_advanced') working took 0.35899999999674037 sec.
+2023-05-25T09:48:07.474358+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:07.868243+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:07.869243+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:07.871243+0300 INFO Function #5 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:07.872242+0300 INFO func number 5 ('get_advanced') working took 0.39100000000325963 sec.
+2023-05-25T09:48:08.228981+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:08.600356+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:08.602306+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:08.603305+0300 INFO Function #6 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:08.604305+0300 INFO func number 6 ('get_advanced') working took 0.375 sec.
+2023-05-25T09:48:10.453838+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:10.837324+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:10.839353+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:10.840323+0300 INFO Function #5 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:10.841324+0300 INFO func number 5 ('get_advanced') working took 0.39100000000325963 sec.
+2023-05-25T09:48:11.178174+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:11.569548+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:11.571548+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:11.572549+0300 INFO Function #6 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:11.573549+0300 INFO func number 6 ('get_advanced') working took 0.39100000000325963 sec.
+2023-05-25T09:48:13.382769+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:13.769280+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:13.770264+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:13.772263+0300 INFO Function #5 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:13.773264+0300 INFO func number 5 ('get_advanced') working took 0.39100000000325963 sec.
+2023-05-25T09:48:14.126957+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:14.505688+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:14.506687+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:14.507687+0300 INFO Function #6 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:14.508688+0300 INFO func number 6 ('get_advanced') working took 0.3899999999557622 sec.
+2023-05-25T09:48:16.003407+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:16.410938+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:16.412958+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:16.414938+0300 INFO Function #5 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:16.415939+0300 INFO func number 5 ('get_advanced') working took 0.42199999996228144 sec.
+2023-05-25T09:48:16.779642+0300 INFO func number 5 ('get_advanced') starting...
+2023-05-25T09:48:17.157891+0300 INFO FUNCTION #5: 6401 rows was turned out from 604937 line.
+2023-05-25T09:48:17.158903+0300 INFO func number 5 ('get_advanced') successfully completed!
+2023-05-25T09:48:17.160892+0300 INFO Function #6 working results was fixed in 'tests/timing_results.json'
+2023-05-25T09:48:17.161893+0300 INFO func number 6 ('get_advanced') working took 0.375 sec.
