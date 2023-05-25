@@ -1,3 +1,5 @@
+import os.path
+
 from database import conn
 from typing import Callable, Iterable
 from secondary_funcs import sql
@@ -20,6 +22,8 @@ def get_advanced_results(time: float, func_num: str) -> None:
 	for funcs number 5 and 6
 	"""
 	file_path = 'tests/timing_results.json'
+	if not os.path.exists('tests'):
+		os.mkdir('tests')
 	try:
 		results_output = json.load(open(file_path))
 	except FileNotFoundError:

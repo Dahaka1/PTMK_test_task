@@ -1,3 +1,5 @@
+import os.path
+
 from loguru import logger
 from . import settings
 from typing import Optional
@@ -5,6 +7,8 @@ import time
 
 
 def logger_init() -> None:
+	if not os.path.exists('loguru_logging'):
+		os.mkdir('loguru_logging')
 	for level in settings.LOGGING_LEVELS:
 		logger.add(
 			settings.ERRORS_OUTPUT_FILE,

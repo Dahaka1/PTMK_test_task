@@ -30,7 +30,8 @@ def get_results() -> None:
 	"""
 	file_path = 'tests/timing_results.json'
 	try:
-		results = json.load(open(file_path))
-		print(f"RESULTS:\n{results}")
+		results: dict = json.load(open(file_path))
+		out = '\n'.join(f"{i}: {j}" for i, j in results.items())
+		print(f"RESULTS:\n{out}")
 	except FileNotFoundError:
 		raise FileNotFoundError("There is no fixed by func number 5 results in timing_results.json")

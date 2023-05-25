@@ -11,3 +11,4 @@ def main():
 
 if __name__ == "__main__":
 	main() if len(sys.argv) > 1 else logger.error("Command line argument wasn't found")
+	input()

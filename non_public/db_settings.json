@@ -1,0 +1,7 @@
+{
+	"db_name": "ptmk",
+	"user": "postgres",
+	"password": "PeD0BEAR",
+	"host": "127.0.0.1",
+	"port": "5432"
+}
