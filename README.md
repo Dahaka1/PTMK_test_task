@@ -11,8 +11,11 @@ Testing: simple built-in Python asserts.
 REFLECTED IN requirements.txt
 
 # USAGE
+You can use this script using installed Python on your computer by doing Git-clone command or downloading "dist" folder
+for use it without built-in Python.
+
 Start main.py using command line being in the project directory by command:
-- "python main.py *args".
+- "python main.py *function_number* *args*".
 
 DB connecting settings you can write optionally in:
 - "non_public/db_settings.json" (if you are working with .exe dist of script);
