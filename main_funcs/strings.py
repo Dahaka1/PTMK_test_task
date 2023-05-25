@@ -25,7 +25,7 @@ sql = {
 
 	"get_advanced": "SELECT p.fullname, p.birthdate, p.sex FROM "
 					f"persons AS p WHERE p.sex = '{sex_choices[0]}' AND "
-					f"p.fullname LIKE 'F%'",
+					f"p.fullname LIKE 'F%' ORDER BY fullname;",
 	"update_db":  """				  
 				  CREATE INDEX person_sex_index ON persons (sex);
 				  CREATE INDEX person_fullname_index ON persons (fullname) 
@@ -42,7 +42,7 @@ get_db_table_length = """
 """
 
 get_person = """
-	SELECT person_id, sex FROM persons WHERE fullname = %s AND birthdate = %s
+	SELECT person_id, sex FROM persons WHERE fullname = %s AND birthdate = %s ORDER BY fullname LIMIT 1;
 """
 
 delete_indexes = """
